@@ -38,6 +38,12 @@ body {
   right: 0;
   top: 44px;
   bottom: 0;
+  
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .normal-button {
