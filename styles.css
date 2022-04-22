@@ -1,81 +1,71 @@
 body {
-/* Template 1-Mobile-Main */
+  /* Template 1-Mobile-Main */
 
+  position: relative;
+  width: 375px;
+  height: 5410px;
 
-position: relative;
-width: 375px;
-height: 5410px;
+  /* Neutrals/N10 */
 
-/* Neutrals/N10 */
+  background: #f7f7f9;
+  }
 
-background: #F7F7F9;
+  .status-bars {
+  /* Bars/Status Bars/ Light */
+
+  position: absolute;
+  width: 375px;
+  height: 44px;
+  left: calc(50% - 375px/2);
+  top: 0px;
 }
-
-.status-bars {
-	/* Bars/Status Bars/ Light */
-
-
-position: absolute;
-width: 375px;
-height: 44px;
-left: calc(50% - 375px/2);
-top: 0px;
-
-}
-
 
 .app-bar {
-/* App Bar - Compact - Dark - iOS */
+  /* App Bar - Compact - Dark - iOS */
 
-
-position: absolute;
-width: 375px;
-height: 92px;
-left: 0px;
-top: 0px;
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  left: 0px;
+  top: 0px;
 }
 
 .toolbar {
-/* Toolbar - Dark - Compact */
+  /* Toolbar - Dark - Compact */
 
-
-position: absolute;
-left: 0px;
-right: 0px;
-top: 44px;
-bottom: 0px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 44px;
+  bottom: 0px;
 }
 
 .normal-button {
-/* Normal Button/Tertiary/Enabled */
+  /* Normal Button/Tertiary/Enabled */
 
+  /* Auto layout */
 
-/* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
 
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 8px;
-
-position: absolute;
-width: 40px;
-height: 40px;
-right: 24px;
-top: calc(50% - 40px/2);
-
-border-radius: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px/2);
+  border-radius: 8px;
 }
 
 .burger {
 	/* Icons/Icon - Menu */
-
 
 	position: static;
 	left: 20%;
 	right: 20%;
 	top: 20%;
 	bottom: 20%;
-
 
 	/* Inside auto layout */
 
@@ -86,115 +76,107 @@ border-radius: 8px;
 }
 
 .logo {
-/* Logo Placeholder */
+  /* Logo Placeholder */
 
+  /* Auto layout */
 
-/* Auto layout */
+  display: block;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
 
-display: block;
-flex-direction: row;
-align-items: center;
-padding: 10px 12px;
-
-position: absolute;
-width: 100px;
-height: 40px;
-left: 12px;
-top: calc(50% - 40px/2);
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 12px;
+  top: calc(50% - 40px/2);
 }
 
 .logo > span {
-/* My Logo */
+  /* My Logo */
 
+  position: static;
+  width: 76px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
 
-position: static;
-width: 76px;
-height: 20px;
-left: 12px;
-top: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 20px;
-/* identical to box height, or 111% */
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-display: flex;
-align-items: center;
-text-align: center;
+  /* Primary/B400 */
 
-/* Primary/B400 */
+  color: #6070FF;
 
-color: #6070FF;
+  /* Inside auto layout */
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
 }
 
 .toolbar-container {
-/* Toolbar Container */
+  /* Toolbar Container */
 
+  position: absolute;
+  visibility: hidden;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
 
-position: absolute;
-visibility: hidden;
-left: 0px;
-right: 0px;
-top: 0px;
-bottom: 0px;
+  /* Base / 900 */
 
-/* Base / 900 */
-
-background: #181E25;
+  background: #181E25;
 }
 
 .headline {
-/* Headline */
+  /* Headline */
 
+  /* Auto layout */
 
-/* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 114px 24px;
-
-position: absolute;
-width: 375px;
-height: 604px;
-left: calc(50% - 375px/2);
-top: 92px;
-background: url("assets/bg.png") repeat-y;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px/2);
+  top: 92px;
+  background: url("assets/bg.png") repeat-y;
 }
 
 .social-media-icons {
-/* social media icons */
+  /* social media icons */
 
+  position: static;
+  width: 300px;
+  height: 20px;
+  left: 24px;
+  top: 470px;
 
-position: static;
-width: 300px;
-height: 20px;
-left: 24px;
-top: 470px;
+  /* Inside auto layout */
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 3;
-flex-grow: 0;
-margin: 12px 0px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
 
 .social-media-icons-list img {
 	padding: 5px;
 	border-radius: 5px;
-	
 	width: 20px;
 	height: 20px;
 }
@@ -212,154 +194,142 @@ margin: 12px 0px;
 }
 
 .social-media {
-/* Social Media */
+  /* Social Media */
 
 
-/* Auto layout */
+  /* Auto layout */
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 117px;
+  height: 24px;
+  left: 24px;
+  top: 434px;
 
-position: static;
-width: 117px;
-height: 24px;
-left: 24px;
-top: 434px;
+  /* Inside auto layout */
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 12px 0px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
 
 .supporting-text {
-	/* Supporting Text */
+  /* Supporting Text */
 
+  /* Auto layout */
 
-/* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 117px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
 
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
+  /* Inside auto layout */
 
-position: static;
-width: 117px;
-height: 24px;
-left: 0px;
-top: 0px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 16px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
 }
 
 .supporting-text > span {
-/* LET’S CONNECT */
+  /* LET’S CONNECT */
 
+  position: static;
+  width: 200px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
 
-position: static;
-width: 200px;
-height: 24px;
-left: 0px;
-top: 0px;
+  /* Body / 2 - Bolder */
 
-/* Body / 2 - Bolder */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
+  /* Primary/B300 */
 
+  color: #7F8CFF;
 
-/* Primary/B300 */
+  /* Inside auto layout */
 
-color: #7F8CFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
 }
 
 .primary-text > p {
-	/* Primary Text */
+  /* Primary Text */
 
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
 
-	position: static;
-	width: 327px;
-	height: 146px;
-	left: 24px;
-	top: 276px;
+  /* Body / 2 */
 
-	/* Body / 2 */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
 
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
-	/* or 150% */
+  /* Neutrals/N600 */
 
+  color: #344563;
 
-	/* Neutrals/N600 */
+  /* Inside auto layout */
 
-	color: #344563;
-
-
-	/* Inside auto layout */
-
-	flex: none;
-	order: 1;
-	flex-grow: 0;
-	margin: 12px 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
 
-.primary-text-2 {
-/* Primary Text 2 */
+.primary-text-2 > h1 {
+  /* Primary Text 2 */
+
+  position: static;
+  width: 327px;
+  height: 150px;
+  left: 24px;
+  top: 114px;
+
+  /* Header / 2 */
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+
+  color: #172B4D;
 
 
-position: static;
-width: 327px;
-height: 150px;
-left: 24px;
-top: 114px;
+  /* Inside auto layout */
 
-/* Header / 2 */
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-/* or 130% */
-
-display: flex;
-align-items: center;
-
-/* Neutrals/N800 */
-
-color: #172B4D;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 12px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
