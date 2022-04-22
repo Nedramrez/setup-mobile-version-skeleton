@@ -8,16 +8,16 @@ body {
   /* Neutrals/N10 */
 
   background: #f7f7f9;
-  }
+}
 
-  .status-bars {
+.status-bars {
   /* Bars/Status Bars/ Light */
 
   position: absolute;
   width: 375px;
   height: 44px;
-  left: calc(50% - 375px/2);
-  top: 0px;
+  left: calc(50% - 375px / 2);
+  top: 0;
 }
 
 .app-bar {
@@ -26,18 +26,18 @@ body {
   position: absolute;
   width: 375px;
   height: 92px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
 .toolbar {
   /* Toolbar - Dark - Compact */
 
   position: absolute;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   top: 44px;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .normal-button {
@@ -49,30 +49,29 @@ body {
   flex-direction: row;
   align-items: flex-start;
   padding: 8px;
-
   position: absolute;
   width: 40px;
   height: 40px;
   right: 24px;
-  top: calc(50% - 40px/2);
+  top: calc(50% - 40px / 2);
   border-radius: 8px;
 }
 
 .burger {
-	/* Icons/Icon - Menu */
+  /* Icons/Icon - Menu */
 
-	position: static;
-	left: 20%;
-	right: 20%;
-	top: 20%;
-	bottom: 20%;
+  position: static;
+  left: 20%;
+  right: 20%;
+  top: 20%;
+  bottom: 20%;
 
-	/* Inside auto layout */
+  /* Inside auto layout */
 
-	flex: none;
-	order: 0;
-	flex-grow: 0;
-	margin: 0px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 0;
 }
 
 .logo {
@@ -84,12 +83,11 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-
   position: absolute;
   width: 100px;
   height: 40px;
   left: 12px;
-  top: calc(50% - 40px/2);
+  top: calc(50% - 40px / 2);
 }
 
 .logo > span {
@@ -100,12 +98,12 @@ body {
   height: 20px;
   left: 12px;
   top: 10px;
-
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+
   /* identical to box height, or 111% */
 
   display: flex;
@@ -114,14 +112,14 @@ body {
 
   /* Primary/B400 */
 
-  color: #6070FF;
+  color: #6070ff;
 
   /* Inside auto layout */
 
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
+  margin: 0 0;
 }
 
 .toolbar-container {
@@ -129,14 +127,14 @@ body {
 
   position: absolute;
   visibility: hidden;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 
   /* Base / 900 */
 
-  background: #181E25;
+  background: #181e25;
 }
 
 .headline {
@@ -148,11 +146,10 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 114px 24px;
-
   position: absolute;
   width: 375px;
   height: 604px;
-  left: calc(50% - 375px/2);
+  left: calc(50% - 375px / 2);
   top: 92px;
   background: url("assets/bg.png") repeat-y;
 }
@@ -171,31 +168,30 @@ body {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .social-media-icons-list img {
-	padding: 5px;
-	border-radius: 5px;
-	width: 20px;
-	height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
 }
 
 .social-media-icons-list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .social-media-icons-list li {
-	display: inline-block;
-	margin: 2px;
-	padding: 0;
+  display: inline-block;
+  margin: 2px;
+  padding: 0;
 }
 
 .social-media {
   /* Social Media */
-
 
   /* Auto layout */
 
@@ -214,7 +210,7 @@ body {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .supporting-text {
@@ -225,19 +221,19 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   position: static;
   width: 117px;
   height: 24px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 
   /* Inside auto layout */
 
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 16px 0px;
+  margin: 16px 0;
 }
 
 .supporting-text > span {
@@ -246,28 +242,29 @@ body {
   position: static;
   width: 200px;
   height: 24px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 
   /* Body / 2 - Bolder */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+
   /* identical to box height, or 150% */
 
   /* Primary/B300 */
 
-  color: #7F8CFF;
+  color: #7f8cff;
 
   /* Inside auto layout */
 
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 8px;
+  margin: 0 8px;
 }
 
 .primary-text > p {
@@ -281,11 +278,12 @@ body {
 
   /* Body / 2 */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+
   /* or 150% */
 
   /* Neutrals/N600 */
@@ -297,7 +295,7 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
 
 .primary-text-2 > h1 {
@@ -311,11 +309,12 @@ body {
 
   /* Header / 2 */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+
   /* or 130% */
 
   display: flex;
@@ -323,13 +322,12 @@ body {
 
   /* Neutrals/N800 */
 
-  color: #172B4D;
-
+  color: #172b4d;
 
   /* Inside auto layout */
 
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
