@@ -306,37 +306,38 @@ background: #FFFFFF;
 }
 
 .primary-text-2 > h1 {
-  /* Primary Text 2 */
+/* Primary Text */
 
-  position: static;
-  width: 327px;
-  height: 126px;
-  left: 24px;
-  top: 114px;
 
-  /* Header / 2 */
+position: static;
+width: 327px;
+height: 126px;
+left: 24px;
+top: 114px;
 
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+/* Header / 2 */
 
-  /* or 130% */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+/* or 130% */
 
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 
-  /* Neutrals/N800 */
+/* Neutrals/N800 */
 
-  color: #172b4d;
+color: #172B4D;
 
-  /* Inside auto layout */
 
-  flex: none;
+/* Inside auto layout */
 
-  flex-grow: 0;
-  margin: 12px 0;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 12px 0px;
 }
 
 .header-shapes {
@@ -1141,17 +1142,353 @@ margin: 12px 0px;
 .about-myself {
   /* About My Self */
 
-
   /* Auto layout */
 
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 114px 24px;
-
   position: absolute;
   width: 327px;
   height: 897px;
   left: calc(50% - 375px/2);
   top: 3800px;
+
+}
+
+.top {
+  /* TOP */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  width: 327px;
+  height: 409px;
+  left: 24px;
+  top: 114px;
+  
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.primary-text-5 > h1 {
+  /* Primary Text */
+  position: static;
+  width: 327px;
+  height: 75px;
+  left: 0px;
+  top: 0px;
+
+  /* Header / 2 */
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+
+  color: #172B4D;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.normal-button-secondary {
+  /* Normal Button/Secondary/Enabled */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+
+  position: static;
+  width: 162px;
+  height: 48px;
+  left: 0px;
+  top: calc(50% - 48px/2 + 180.5px);
+
+  /* Primary/B400 */
+
+  border: 1px solid #6070FF;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  flex-grow: 0;
+  margin: 12px 0px;
+}
+
+.get-my-resume {
+  /* Get my resume */
+
+
+  position: static;
+  width: 138px;
+  height: 24px;
+  left: 12px;
+  top: 12px;
+  
+  /* Button /Normal */
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height, or 141% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  
+  /* Primary/B500 */
+  
+  color: #396DF2;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.skill-list {
+  /* Skill List */
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  
+  position: static;
+  width: 327px;
+  height: 464.15px;
+  left: 24px;
+  top: 547px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.skill-languages {
+  /* Frame 7 */
+
+  /* Frame 8 */
+  
+  position: static;
+  width: 327px;
+  height: 72px;
+  left: 0px;
+  top: 320.15px;
+    
+  /* Inside auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.languages {
+  /* Languages */
+
+  position: absolute;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+
+
+  /* Body / 1 - Bolder */
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-left: 12px;
+}
+
+.disabled-languages {
+/* Normal Button/Tertiary/Disabled */
+
+/* Auto layout */
+
+padding: 8px;
+position: absolute;
+width: 40px;
+height: 40px;
+right: 26px;
+
+}
+
+.frame-11 {
+  /* Langguage List */
+
+
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  
+  position: static;
+  width: 327px;
+  height: 248.15px;
+  left: 0px;
+  top: 72px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.skill-frameworks {
+  /* Frame 8 */
+  
+  position: static;
+  width: 327px;
+  height: 72px;
+  left: 0px;
+  top: 320.15px;
+    
+  /* Inside auto layout */
+  
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 0px;
+
+}
+
+.frameworks {
+  /* Frameworks */
+
+
+position: absolute;
+height: 24px;
+left: 12px;
+right: 78px;
+
+/* Body / 1 - Bolder */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+padding: 12px;
+color: #000000;
+}
+
+.chevron {
+/* Normal Button/Tertiary/Disabled */
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+position: absolute;
+width: 40px;
+height: 40px;
+right: 26px;
+}
+
+.skill-skills {/* Frame 9 */
+
+
+  position: static;
+  width: 327px;
+  height: 72px;
+  left: 0px;
+  top: 392.15px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 0px;
+
+
+}
+
+.skills {
+  /* Skills */
+
+
+position: absolute;
+height: 24px;
+left: 12px;
+right: 78px;
+
+
+/* Body / 1 - Bolder */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+padding: 12px;
+color: #000000;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 1px solid #DFE1E6;
+  width: 357px;
 }
