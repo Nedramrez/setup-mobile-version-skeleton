@@ -304,7 +304,7 @@
 
   /* Header / 2 */
 
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -317,7 +317,7 @@
 
   /* Neutrals/N800 */
 
-  color: #172B4D;
+  color: #172b4d;
 
   /* Inside auto layout */
 
@@ -561,7 +561,6 @@
 }
 
 .role {
-
   /* Role */
 
   /* Auto layout */
